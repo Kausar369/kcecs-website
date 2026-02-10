@@ -8,11 +8,10 @@ This is the official website project for **Kazakhstan–China Economic Center (K
 - Deployed on VPS with custom domain and HTTPS
 
 ## Tech Stack
-- HTML5
-- CSS3
-- JavaScript
 - Git & GitHub
-- Deployed with Plesk
+- Technologies: HTML5, CSS3, JavaScript
+- Deployment: Hosted on PS Cloud with free SSL, fully responsive multi-language website
+- Multi-language support: English, Kazakh, Russian, Chinese
 
 ## Live Demo
 https://kcecs.com
