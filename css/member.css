@@ -1,0 +1,283 @@
+/*====== ceo介绍 =======*/
+/*ceo大框框*/
+.ceo{
+    display: flex;
+    background-color: #1f365b;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+/*ceo大头照*/
+.ceo img{
+    max-width: 250px;
+    margin:40px 40px;
+    border-radius: 7px;
+}
+/*ceo文字框*/
+.ceo-text{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*ceo名字*/
+.ceo-name{
+    font-size: 36px;
+    margin:3px 0;
+    color: #c5a95d;
+}
+/*ceo职位*/
+.ceo-position{
+    color: #ffffff;
+    font-size: 36px;
+    margin:3px 0;
+}
+/*ceo简介*/
+.ceo-text p{
+    color:#c9c9c9;
+    font-style: italic;
+    padding: 5px 10px;
+    background-color: #3a4d6c;
+    border-radius: 7px;
+    line-height: 1.8;
+    border-left: solid#c5a95d 7px;
+    max-width: 700px;
+}
+/*====== 成员介绍 =======*/
+/*外面大框框子包含三个人 整个content*/
+.members{
+    display: flex;
+    justify-content:center;
+    gap: 70px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*各个成员框框子*/
+.member{
+    width: 300px;
+    height: 450px;
+    margin-top:0cap;
+    justify-content: center;
+    background-color: #ffffff;
+}
+/*头像*/
+.member img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px ;
+    height:200px ;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: sepia(40%) brightness(1.05);
+    background-color: #a88534;
+}
+
+/*文字框*/
+.member-content{
+    text-align: center;
+}
+/*名字*/
+.member-name{
+    color: #1f365b;
+    font-size: 24px;
+    margin-bottom:3px;
+}
+/*职位*/
+.member-position{
+    margin-top:0;
+    color: #be8a11d4;
+    font-size:16px;
+}
+/*简介*/
+.members p{
+    font-size: 13px;
+    font-style: italic;
+    line-height:1.5;
+    color: #414141;
+}
+
+
+
+
+
+
+
+@media (max-width:430px) {
+/*====ceo介绍====*/
+
+    /* ceo 大框框子 */
+    .ceo{
+        display: inline-block;
+        border-radius: 12px;
+        text-align: center;
+        max-width: fit-content;
+    }
+    /* ceo 文本框 */
+    .ceo-text{
+        display: block;
+        width: 90%;
+        max-width: fit-content;
+        margin: 0 auto;
+    }
+    /* ceo 名字 */
+    .ceo-name{
+        font-size: 24px;
+        margin: 8px 0 0 0;
+    }
+    /* ceo 职位 */
+    .ceo-position{
+        font-size: 22px;
+        margin: 6px 0 14px 0;
+    }
+    /* ceo 简介 */
+    .ceo-text p{
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: left;
+        background-color: #3a4d6c;
+        padding: 12px;
+        border-radius: 8px;
+        width: 90%;
+        margin: 0 auto;
+        border-left: 5px solid #c5a95d;
+    }
+
+
+
+
+/*====成员介绍====*/
+    
+    /* 成员介绍 整体隐形框框子 */
+    .members {
+        margin-top: 10%;
+        flex-direction: column;
+        gap: 30px; /* 卡片之间间距更自然 */
+        padding: 20px 0;
+    }
+    /* 成员介绍 单个卡片框 */
+    .member {
+        width: 90%;       /* 自适应屏幕 */
+        height: auto;     /* 高度不要固定，让内容自己撑开 */
+        padding: 20px 0;  /* 卡片内部增加呼吸感 */
+        border-radius: 12px;
+    }
+    /* 成员介绍 头像 */
+    .member img {
+        width: 150px;     /* 在小屏幕上更合理的头像大小 */
+        height: 150px;
+        margin-bottom: 15px;
+    }
+    /* 成员介绍 文字框 */
+    .member-content {
+        width: 85%;
+        margin: 0 auto;
+        text-align: center; /* 保持目前的居中风格 */
+    }
+    /* 成员介绍 名字 */
+    .member-name {
+        font-size: 20px;
+    }
+    /* 成员介绍 职位 */
+    .member-position {
+        font-size: 14px;
+    }
+    /* 成员介绍 简介 */
+    .members p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+
+
+
+@media (max-width:768px) {
+/*====ceo介绍====*/
+
+    /* CEO 外框*/
+    .ceo {
+        width: 95%;
+        padding: 20px;
+        flex-wrap: nowrap;
+    }
+
+    /* CEO 图片*/
+    .ceo img {
+        width: 180px;
+        height: auto;
+        margin: 20px;
+    }
+
+    /* CEO 文本区域*/
+    .ceo-text {
+        margin: 20px;
+        width: 100%;
+    }
+
+    /* CEO 名字 */
+    .ceo-name {
+        font-size: 28px;
+    }
+
+    /* CEO 职位 */
+    .ceo-position {
+        font-size: 28px;
+    }
+
+    /* CEO 简介 */
+    .ceo-text p {
+        font-size: 14px;
+        line-height: 1.7;
+        padding: 10px;
+    }
+
+
+
+
+/*====成员介绍====*/
+
+    /* 成员介绍 隐形框 */
+    .members {
+        justify-content: center;
+        gap: 40px;         /* iPad 间距不需要太大 */
+        padding: 30px 0;
+        flex-wrap: wrap;   /* 允许自动换行 */
+    }
+    /* 成员介绍 单个成员卡片框 */
+    .member {
+        width: 260px;      /* 比桌面端300px稍微小一点 */
+        height: auto;      /* 让内容自然撑开，不固定高度 */
+        padding: 20px 0;
+        border-radius: 12px;
+    }
+    /* 成员介绍 头像 */
+    .member img {
+        width: 150px;      /* iPad 不需要200px那么大 */
+        height: 150px;
+        margin-bottom: 15px;
+    }
+    /* 成员介绍 文本框 */
+    .member-content {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* 成员介绍 名字 */
+    .member-name {
+        font-size: 20px;
+    }
+    /* 成员介绍 职位 */
+    .member-position {
+        font-size: 14px;
+    }
+    /* 成员介绍 简介 */
+    .members p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+}
