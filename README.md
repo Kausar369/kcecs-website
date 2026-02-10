@@ -1,9 +1,21 @@
-# kcecs-website
-this is an official website project for KCECS.
-Multi-language corporate website built with HTML, CSS, and JS.
-include english/chinease/kazakh/russian languages.
-ONLY DISPLAYING HERE FOR SHOWING THE CODES.
+# KCECS Website
 
+This is the official website project for **Kazakhstan–China Economic Center (KCECS)**.
 
-# experience
-this is also my first time to create a complete website. During this process ive learned a lot. Especially how important it is to manage all the folders and path names so that it will be easier to upload online.
+## Features
+- Multi-language support (EN / RU / ZH / KZ)
+- Responsive layout for different devices
+- Deployed on VPS with custom domain and HTTPS
+
+## Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
+- Deployed with Plesk
+
+## Live Demo
+https://kcecs.com
+
+## Author
+Kaussar
